@@ -17,9 +17,11 @@ public class Score {
         id.setMovie( movie );
     }
 
-    public void setMovie( User user ) {
-        id.setUser( user );
-    }
+    //public void setMovie( User user ) {
+      //  id.setUser( user );
+    //}
+
+    public void setUser( User user ) { id.setUser( user );}
 
     public ScorePK getId() {
         return id;
@@ -36,4 +38,5 @@ public class Score {
     public void setValue(Double value) {
         this.value = value;
     }
+
 }
